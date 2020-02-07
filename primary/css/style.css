@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 5rem;
+}
+.header{
+    background-color: #ffffff;
+}
+
+.second{
+    background-image: url(https://html.dankov-themes.com/primary/assets/images/slide.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 13rem 0;
+}
+.second-text h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+.second-text hr{
+    width: 20rem;
+    color: #ffffff;
+    margin: 20px auto;
+
+}
+.second-text h2{
+    color: #ffffff;
+    font-size: 55px;
+    padding: 4rem 0;
+}
+.second-text h2 span{
+    color: red;
+}
+
+.second-text a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 40px;
+    color: #ffffff;
+    background-color: rgba(255,255,255,0.25);
+}
+.third{
+text-align: center;
+}
+.third-all{
+    display: flex;
+}
+.third-box{
+text-align: center;
+width: 25%;
+margin-top: 5rem ;
+}
+.third-box i{
+    color: #F44336;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 45px;
+    transition: .5s;
+    cursor: pointer;
+}
+.third-box i:hover{
+    background-color: red;
+    color: #ffffff;
+}
+.third-box h3{
+    font-size: 21px;
+    color: #444444;
+}
+
+.third-box hr{
+    width: 50px;
+    margin: 10px auto;
+}
+
+.third-box p{
+    color: #444444;
+    font-size: 14px;
+}
+.fourth{
+    padding: 35px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.fourth-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fourth-box{
+    width: 30%;
+    margin: 15px 10px;
+}
+.fourth-box .top img{
+    width: 100%;
+}
+.fourth-box .bottom{
+    background-color: #ffffff;
+padding: 15px 0;
+}
+.fourth-box .bottom h2,p{
+    color: #444444;
+}
+.fourth-text h3{
+    font-size: 31px;
+    color: #444;
+    margin: 30px 0;
+}
+.fourth-text hr{
+    margin: 10px auto;
+    width: 50px;
+    color: red;
+}
+
+.fourth-text p{
+    color: #444;
+    font-size: 14px;
+    margin: 10px;
+}
+.fourth-box .top {
+    position: relative;
+}
+.fourth-box .top .overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000000;
+opacity: 0;
+cursor: pointer;
+transition: .4s;
+}
+.fourth-box .top .overlay i{
+    color: #ffffff;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fourth-box .top:hover .overlay{
+    opacity: 0.6;
+}
+.fourth-box .top .overlay i{
+    position: absolute;
+}
+
+.sixth{
+    background-image: url(https://html.dankov-themes.com/primary/assets/images/parallax.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.sixth-all{
+    display: flex;
+}
+.sixth-box{
+    width: 25%;
+    margin: 5rem 0;
+}
+
+.sixth-box i{
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 50px;
+}
+.sixth-box h2{
+    font-size: 50px;
+    color: #ffffff;
+}
+.sixth-box p{
+    color: #ffffff;
+    font-size: 16px;
+}
+.seventh{
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.seventh-all{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.seventh-box{
+display: flex;
+width: 29%;
+margin: 30px 20px;
+}
+.seventh-box .seventh-text h2{
+    font-size: 20px;
+}
+.seventh-box .seventh-text p{
+    font-size: 14px;
+}
+.ico i{
+    font-size: 50px;
+    color: #F44336;
+
+}
